@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   ai-governance:
-    uses: KyPython/ai-governance/.github/workflows/governance.yml@93d05ae1b36eac9c1d20dcd0a9ce5f4cb8bfd632 # KyPython/ai-governance#1 head (spec + role gate); bump to main after Ky merges it
+    uses: KyPython/ai-governance/.github/workflows/governance.yml@fa5d13dbdea4ceed273904fc775b495a712da222 # KyPython/ai-governance@main with roles.yml and spec gate
     with:
       node-version: "22"
       # require-tests: true
